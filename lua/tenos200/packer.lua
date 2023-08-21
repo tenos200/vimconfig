@@ -37,5 +37,6 @@ use {
     }
   }
   use({ 'rose-pine/neovim', as = 'rose-pine' })
+  use 'martinsione/darkplus.nvim'
 end)
 

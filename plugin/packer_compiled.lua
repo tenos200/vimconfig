@@ -84,6 +84,11 @@ _G.packer_plugins = {
     path = "/Users/timenos/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
+  ["darkplus.nvim"] = {
+    loaded = true,
+    path = "/Users/timenos/.local/share/nvim/site/pack/packer/start/darkplus.nvim",
+    url = "https://github.com/martinsione/darkplus.nvim"
+  },
   ["lsp-zero.nvim"] = {
     loaded = true,
     path = "/Users/timenos/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
