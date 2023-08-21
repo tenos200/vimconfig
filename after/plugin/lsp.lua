@@ -5,9 +5,9 @@ lsp.preset("recommended")
 lsp.ensure_installed({
   'tsserver',
   'rust_analyzer',
-  'pyright', 
+  'pyright',
   'eslint',
-  'lua_ls', 
+  'lua_ls'
 })
 
 lsp.nvim_workspace()
@@ -19,5 +19,4 @@ local cmp_mappings = lsp.defaults.cmp_mappings({
   ['<C-y>'] = cmp.mapping.confirm({ select = true }),
   ["<C-Space>"] = cmp.mapping.complete(),
 })
-
 lsp.setup()
