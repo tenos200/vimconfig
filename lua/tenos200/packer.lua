@@ -29,8 +29,7 @@ use {
 }
   use {
   "nvim-neo-tree/neo-tree.nvim",
-    branch = "v3.x",
-    requires = { 
+    branch = "v3.x", requires = { 
       "nvim-lua/plenary.nvim",
       "nvim-tree/nvim-web-devicons", -- not strictly required, but recommended
       "MunifTanjim/nui.nvim",
@@ -38,5 +37,12 @@ use {
   }
   use({ 'rose-pine/neovim', as = 'rose-pine' })
   use 'martinsione/darkplus.nvim'
+  use({ 'folke/tokyonight.nvim', as = 'tokyonight' })
+  use "bluz71/vim-nightfly-colors"
+  use "rebelot/kanagawa.nvim"
+  use({ 'monsonjeremy/onedark.nvim' })
+  use { "catppuccin/nvim", as = "catppuccin" }
+  use {'morhetz/gruvbox', as = "gruvbox"}
+
 end)
 

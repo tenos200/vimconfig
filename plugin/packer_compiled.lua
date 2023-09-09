@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/Users/timenos/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  catppuccin = {
+    loaded = true,
+    path = "/Users/timenos/.local/share/nvim/site/pack/packer/start/catppuccin",
+    url = "https://github.com/catppuccin/nvim"
+  },
   ["cmp-nvim-lsp"] = {
     loaded = true,
     path = "/Users/timenos/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
@@ -88,6 +93,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/timenos/.local/share/nvim/site/pack/packer/start/darkplus.nvim",
     url = "https://github.com/martinsione/darkplus.nvim"
+  },
+  gruvbox = {
+    loaded = true,
+    path = "/Users/timenos/.local/share/nvim/site/pack/packer/start/gruvbox",
+    url = "https://github.com/morhetz/gruvbox"
+  },
+  ["kanagawa.nvim"] = {
+    loaded = true,
+    path = "/Users/timenos/.local/share/nvim/site/pack/packer/start/kanagawa.nvim",
+    url = "https://github.com/rebelot/kanagawa.nvim"
   },
   ["lsp-zero.nvim"] = {
     loaded = true,
@@ -129,6 +144,11 @@ _G.packer_plugins = {
     path = "/Users/timenos/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/nvim-tree/nvim-web-devicons"
   },
+  ["onedark.nvim"] = {
+    loaded = true,
+    path = "/Users/timenos/.local/share/nvim/site/pack/packer/start/onedark.nvim",
+    url = "https://github.com/monsonjeremy/onedark.nvim"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/Users/timenos/.local/share/nvim/site/pack/packer/start/packer.nvim",
@@ -148,6 +168,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/timenos/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  tokyonight = {
+    loaded = true,
+    path = "/Users/timenos/.local/share/nvim/site/pack/packer/start/tokyonight",
+    url = "https://github.com/folke/tokyonight.nvim"
+  },
+  ["vim-nightfly-colors"] = {
+    loaded = true,
+    path = "/Users/timenos/.local/share/nvim/site/pack/packer/start/vim-nightfly-colors",
+    url = "https://github.com/bluz71/vim-nightfly-colors"
   }
 }
 
