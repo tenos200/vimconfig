@@ -28,6 +28,3 @@ function ColorMyPencils(color)
 end
 ColorMyPencils()
 
-vim.api.nvim_exec([[
-  hi StatusLine guibg=000 guifg=YOUR_TEXT_COLOR_HERE
-]], false)
