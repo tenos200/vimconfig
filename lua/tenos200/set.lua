@@ -13,3 +13,4 @@ vim.opt.incsearch = true
 vim.opt.colorcolumn = "80"
 vim.opt.signcolumn = "yes"
 vim.opt.scrolloff = 8
+vim.api.nvim_set_option("clipboard", "unnamed")
