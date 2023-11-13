@@ -1,4 +1,3 @@
-vim.opt["guicursor"] = ""
 vim.wo.relativenumber = true
 vim.wo.number = true
 vim.g.mapleader = " "

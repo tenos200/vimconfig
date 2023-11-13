@@ -7,7 +7,8 @@ lsp.ensure_installed({
   'rust_analyzer',
   'pyright',
   'eslint',
-  'lua_ls'
+  'lua_ls',
+  'jdtls',
 })
 
 lsp.nvim_workspace()
